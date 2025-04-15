@@ -28,5 +28,6 @@ void loop()
     Serial.print(moisture);
     Serial.println(" (Motor off)");
   }
-  delay(1000); // Wait for 1000 millisecond(s)
+  delay(1000); // Wait for 1000 milliseconds
+  //problem was this code would confuse the arduino as the Analog pins were use more for input
 }
