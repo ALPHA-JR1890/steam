@@ -42,3 +42,4 @@ void loop() {
   
   delay(1000); // Wait a second before next reading so it dont lag 
 } // only problem might be the gnd pin and could make this work
+// did not work going back to v2
